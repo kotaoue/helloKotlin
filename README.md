@@ -13,6 +13,7 @@ $ brew install gradle
 - Kotlin
 - Kotlin Language
 - Kotlin Formatter
+- Code Runner
 
 ### Hello World
 ```
@@ -55,3 +56,7 @@ Generate build using new APIs and behavior (some features may change in the next
 > Task :init
 Learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.10/samples/sample_building_kotlin_applications.html
 ```
+
+## Links
+- [VSCodeでKotlinの開発環境構築手順](https://zenn.dev/yt_hsgw/articles/ca77fb7be734a5)
+- [【2024年版】VSCodeでKotlinを実行する方法（Windows&Mac対応）](https://codeforfun.jp/how-to-run-kotlin-in-vscode/)
