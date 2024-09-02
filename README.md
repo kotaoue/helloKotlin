@@ -1,12 +1,26 @@
 # helloKotlin
 Hello Kotlin World
 
-## Setup
+## Setup & Hello World
 ### Prepare
 ```
 $ brew update
 $ brew install kotlin
 $ brew install gradle
+```
+
+### VS Code Extension
+- Kotlin
+- Kotlin Language
+- Kotlin Formatter
+
+### Hello World
+```
+touch helloWorld.kt
+
+$ kotlinc helloWorld.kt -include-runtime -d helloWorld.jar
+$ java -jar helloWorld.jar 
+Hello World!
 ```
 
 ### Create Project
