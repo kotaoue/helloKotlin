@@ -1,5 +1,6 @@
 fun main() {
-    println("Hello World!")
+    val text:String = "Hello World!"
+    println(text)
 }
 
 fun printText(text: String) {
