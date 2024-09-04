@@ -8,6 +8,9 @@ fun main() {
 
     printCurrentTime()
     printCurrentTimeIsOddOrEven()
+
+    val scuared: (Int) -> Int = { it * it }
+    println(scuared(5))
 }
 
 fun printText(text: String) {
