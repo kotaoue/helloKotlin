@@ -17,9 +17,10 @@ fun printCurrentTime() {
 
 fun printCurrentTimeIsOddOrEven() {
     val currentTime = System.currentTimeMillis()
-    if (currentTime % 2 == 0L) {
-        println("Even")
+    val result = if (currentTime % 2 == 0L) {
+        "Even"
     } else {
-        println("Odd")
+        "Odd"
     }
+    println(result)
 }
