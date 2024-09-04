@@ -11,6 +11,9 @@ fun main() {
 
     val scuared: (Int) -> Int = { it * it }
     println(scuared(5))
+
+    val add: (Int, Int) -> Int = { a, b -> a + b }
+    println(add(5, 3))
 }
 
 fun printText(text: String) {
