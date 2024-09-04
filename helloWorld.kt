@@ -3,6 +3,7 @@ fun main() {
     printText(text)
 
     printCurrentTime()
+    printCurrentTimeIsOddOrEven()
 }
 
 fun printText(text: String) {
@@ -12,4 +13,13 @@ fun printText(text: String) {
 fun printCurrentTime() {
     println(System.currentTimeMillis())
     println(java.time.LocalDateTime.now())
+}
+
+fun printCurrentTimeIsOddOrEven() {
+    val currentTime = System.currentTimeMillis()
+    if (currentTime % 2 == 0L) {
+        println("Even")
+    } else {
+        println("Odd")
+    }
 }
