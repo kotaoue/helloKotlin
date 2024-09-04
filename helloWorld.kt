@@ -1,6 +1,10 @@
 fun main() {
     val text:String = "Hello World!"
     printText(text)
+    printText(text.uppercase())
+    printText(text.lowercase())
+    printText(text.reversed())
+    printText(text.hashCode().toString())
 
     printCurrentTime()
     printCurrentTimeIsOddOrEven()
